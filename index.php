@@ -25,13 +25,22 @@ if(isset($_GET['page']) == 'home'){
   <meta content="all" name="robots">
 
   <title>SMK Ash Sholihuddin Dampit | <?=$title;?></title>
-  <meta name="description" content="">
+  <meta name="description" content="sekolah menengah kejuruhan">
   <meta name="keywords" content="smk, sekolah, sekolah menengah kejuruhan">
   <meta name="author" content="Devan Eka Prasetian">
 
+  <meta property="og:title" content="SMK Ash Sholihuddin Dampit">
+  <meta property="og:description" content="sekolah menengah kejuruhan">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bkk-smkashsholihuddin.com/">
+  <meta property="og:image" content="https://bkk-smkashsholihuddin.com/assets/img/logo1.png">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="1200">
+  <meta name="twitter:title" content="SMK Ash Sholihuddin Dampit">
+
   <!-- Favicons -->
-  <link href="assets/img/icon-school.png" rel="icon">
-  <link href="assets/img/icon-school.png" rel="apple-touch-icon">
+  <link href="assets/img/logo1.png" rel="icon">
+  <link href="assets/img/logo1.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -63,9 +72,11 @@ if(isset($_GET['page']) == 'home'){
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="?page=home">Logo</a></h1>
+      <!-- LOGO -->
+      <!-- <h1 class="logo me-auto"><a href="?page=home">Logo</a></h1> -->
+
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+       <a href="?page=home" class="logo me-auto"><img src="assets/img/logo1.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -229,6 +240,8 @@ if(isset($_GET['page']) == 'home'){
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  
 
 </body>
 

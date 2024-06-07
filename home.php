@@ -1,4 +1,4 @@
-<!-- ======= Hero Section ======= -->
+======= Hero Section ======= -->
 <section id="hero" class="d-flex justify-content-center align-items-center">
   <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
     <h1>Learning Today,<br>Leading Tomorrow</h1>
@@ -17,7 +17,7 @@
         <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
           <img src="assets/img/about.jpg" class="img-fluid" alt="">
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <!-- <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
           <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -31,8 +31,21 @@
           <p>
             Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
           </p>
-
+        </div> -->
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <h3>VISI BKK SMK ASH SHOLIHUDDIN</h3>
+          <p class="fst-italic">
+            Terwujudnya Bursa Kerja Khusus (BKK) yang mampu menjembatani pencari dan pemberi kerja serta menyalurkan tamatan yang dapat memenuhi tuntutan kebutuhan Usaha dan Industri memasuki Era Global. 
+          </p>
+          <h3>MISI BKK SMK ASH SHOLIHUDDIN DAMPIT</h3>
+		  <ol>
+			  <li>Menjadi pusat informasi lowongan pekerjaan yang aktual bagi siswa dan alumni SMK Ash Sholihuddin Dampit.</li>
+			  <li>Menjalin kerjasama dengan Dunia Usaha/Industri untuk mengadakan pelatihan dan rekrutmen tenaga kerja bagi siswa dan alumni.</li>
+			  <li>Memberikan pelayanan berkualitas terhadap alumni melalui pendataan lulusan dan keterserapan tenaga kerja.</li>
+			  <li>Menyalurkan para tamatan SMK Ash Sholihuddin sesuai dengan kompetensi keahlian yang dibutuhkan dunia usaha dan dunia industri.</li>
+		  </ol>
         </div>
+
       </div>
 
     </div>
@@ -198,10 +211,11 @@
       </div>
 
     </div>
-  </section><!-- End Features Section -->
+  </section>
+  <!-- End Features Section -->
 
   <!-- ======= Popular Courses Section ======= -->
-  <section id="popular-courses" class="courses">
+  <!-- <section id="popular-courses" class="courses">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -235,7 +249,7 @@
               </div>
             </div>
           </div>
-        </div> <!-- End Course Item-->
+        </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="course-item">
@@ -261,7 +275,7 @@
               </div>
             </div>
           </div>
-        </div> <!-- End Course Item-->
+        </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="course-item">
@@ -287,15 +301,16 @@
               </div>
             </div>
           </div>
-        </div> <!-- End Course Item-->
+        </div>
 
       </div>
 
     </div>
-  </section><!-- End Popular Courses Section -->
+  </section> -->
+  <!-- End Popular Courses Section -->
 
   <!-- ======= Trainers Section ======= -->
-  <section id="trainers" class="trainers">
+  <!-- <section id="trainers" class="trainers">
     <div class="container" data-aos="fade-up">
 
       <div class="row" data-aos="zoom-in" data-aos-delay="100">
@@ -359,6 +374,7 @@
       </div>
 
     </div>
-  </section><!-- End Trainers Section -->
+  </section> -->
+  <!-- End Trainers Section -->
 
-</main><!-- End #main -->
+</main><!-- End #main
